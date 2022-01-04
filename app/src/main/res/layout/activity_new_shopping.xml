@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipe_List.RecipeList">
+
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="681dp"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/new_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <EditText
+            android:id="@+id/new_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@android:color/transparent"
+            android:hint="Product Name"
+            android:inputType=""
+            android:padding="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".3"
+            android:background="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/new_product_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Product weight"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/new_product_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Product quantity"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            tools:targetApi="o" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/new_note_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Add Product" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

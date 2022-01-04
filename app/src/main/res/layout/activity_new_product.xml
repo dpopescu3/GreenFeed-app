@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fridge_Manager.NewProductActivity"
+    android:background="@color/lightgreen">
+    <include layout="@layout/newproductback"/>
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="456dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/productfridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@android:color/transparent"
+            android:hint="Product Name"
+            android:textSize="20dp"
+            android:inputType=""
+            android:padding="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".3"
+            android:background="@android:color/black"
+            />
+
+
+        <EditText
+            android:id="@+id/weightfridge"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Product weight"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:padding="10dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/quantityfridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Product quantity"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:padding="10dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/Brandfridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Brand"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:padding="10dp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/OriginCountryfridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="top"
+            android:hint="OriginCountry"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:padding="10dp"
+            tools:targetApi="o"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/expirationdate_fridge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/datebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Choose Expiration Date"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:background="@drawable/white_rounded_button"
+            android:backgroundTint="@color/coral"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/addfridge"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_gravity="end|bottom"
+        android:text="Add Product"
+        android:textSize="30dp"
+        android:background="@drawable/white_rounded_button"
+        android:backgroundTint="@color/light_purple"
+        android:layout_marginBottom="20dp" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

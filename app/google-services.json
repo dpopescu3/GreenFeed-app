@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1077644635039",
+    "firebase_url": "https://greenfeed-2bdaf.firebaseio.com",
+    "project_id": "greenfeed-2bdaf",
+    "storage_bucket": "greenfeed-2bdaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077644635039:android:31638a1a09962033",
+        "android_client_info": {
+          "package_name": "diana.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077644635039-fs2cqa3salh9pavfidtp4pk7jlk9a83o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "diana.com",
+            "certificate_hash": "c2641813f954f9b118921de67c1f4bfc8d8f3f13"
+          }
+        },
+        {
+          "client_id": "1077644635039-vjn2gnmc8tt9op0ec7q9bip0g2eli47k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB25cQRtABjmWWOjptJlTeDNFz_wNVPb9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077644635039-vjn2gnmc8tt9op0ec7q9bip0g2eli47k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

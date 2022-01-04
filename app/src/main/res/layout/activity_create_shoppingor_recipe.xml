@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include layout="@layout/layout_top_tabs" />
+
+    <TextView
+        android:id="@+id/StartNew"
+        android:layout_width="228dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:text="@string/start_new"
+        android:textColor="#106F14"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="356dp"
+        app:srcCompat="@drawable/cakes" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="162dp"
+        android:layout_height="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="359dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        app:srcCompat="@drawable/shoppingcart" />
+
+    <Button
+        android:id="@+id/recipe_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="286dp"
+        android:text="Recipe" />
+
+    <Button
+        android:id="@+id/shoppinglist_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Shopping List" />
+
+</RelativeLayout>

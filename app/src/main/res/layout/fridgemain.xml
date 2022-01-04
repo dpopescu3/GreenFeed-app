@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fridgesection"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="128dp"
+        android:minHeight="128dp"
+        app:contentPadding="5dp"
+        android:backgroundTint="@color/lawngreen"
+        >
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_product_fridge"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fridgeimage"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-35dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Your fridge"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:id="@+id/fridgeimage"
+                android:layout_width="104dp"
+                android:layout_height="88dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="44dp"
+                app:srcCompat="@drawable/fridgefinal" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <!-- CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addproductsection"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="128dp"
+        android:minHeight="128dp"
+        app:contentPadding="5dp"
+        android:backgroundTint="@color/yellow">
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_add_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addimage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-30dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Add a product"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:id="@+id/addimage"
+                android:layout_width="155dp"
+                android:layout_height="95dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="37dp"
+                app:srcCompat="@drawable/add" />
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/shoppinglistsection"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="128dp"
+        android:minHeight="128dp"
+        app:contentPadding="5dp"
+        android:backgroundTint="@color/orange">
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_shoppinglist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-30dp"
+                android:layout_below="@id/shoppingimage"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Your shopping list"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:id="@+id/shoppingimage"
+                android:layout_width="165dp"
+                android:layout_height="97dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                app:srcCompat="@drawable/addtobasket" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/product_card"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="128dp"
+        android:minHeight="128dp"
+        app:contentPadding="5dp"
+        android:backgroundTint="@color/light_purple">
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_recipe_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-30dp"
+                android:layout_below="@id/recipeimage"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Your recipe-book"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            />
+
+            <ImageView
+                android:id="@+id/recipeimage"
+                android:layout_width="165dp"
+                android:layout_height="97dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="35dp"
+                app:srcCompat="@drawable/book" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+    </ScrollView>

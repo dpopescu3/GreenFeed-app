@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="30sp"
+    android:text="@string/open_camera"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/white_rounded_button"
+    android:backgroundTint="@color/darkRed"
+    android:textColor="@color/lightgreen"
+    android:textStyle="bold"
+
+    android:id="@+id/btnLaunchCamera"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="355dp"
+        android:layout_height="374dp"
+        android:layout_centerInParent="true"
+        android:background="#00FDD835"
+        android:visibility="visible"
+        app:srcCompat="@drawable/cameraback" />
+
+
+</RelativeLayout>
